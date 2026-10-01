@@ -61,6 +61,7 @@ Moved the product's analytics reads from Postgres onto ClickHouse with a staged,
 | `frontend` | ![React](https://img.shields.io/badge/React-1d2021?style=flat-square&logo=react&logoColor=83a598) ![Redux](https://img.shields.io/badge/Redux_Toolkit-1d2021?style=flat-square&logo=redux&logoColor=d3869b) ![TanStack Query](https://img.shields.io/badge/TanStack_Query-1d2021?style=flat-square&logo=reactquery&logoColor=fb4934) ![Tailwind](https://img.shields.io/badge/Tailwind-1d2021?style=flat-square&logo=tailwindcss&logoColor=8ec07c) ![Radix](https://img.shields.io/badge/Radix_UI-1d2021?style=flat-square&logo=radixui&logoColor=ebdbb2) |
 | `infra` | ![Google Cloud](https://img.shields.io/badge/Google_Cloud-1d2021?style=flat-square&logo=googlecloud&logoColor=83a598) ![AWS](https://img.shields.io/badge/AWS-1d2021?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-1d2021?style=flat-square&logo=docker&logoColor=83a598) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-1d2021?style=flat-square&logo=githubactions&logoColor=ebdbb2) |
 | `ai` | ![Claude Code](https://img.shields.io/badge/Claude_Code-1d2021?style=flat-square&logo=claude&logoColor=fe8019) ![Codex](https://img.shields.io/badge/OpenAI_Codex-1d2021?style=flat-square) ![Anthropic API](https://img.shields.io/badge/Anthropic_API-1d2021?style=flat-square&logo=anthropic&logoColor=ebdbb2) ![MCP](https://img.shields.io/badge/MCP-1d2021?style=flat-square&logo=modelcontextprotocol&logoColor=ebdbb2) |
+| `net` | ![Tailscale](https://img.shields.io/badge/Tailscale-1d2021?style=flat-square&logo=tailscale&logoColor=ebdbb2) ![NextDNS](https://img.shields.io/badge/NextDNS-1d2021?style=flat-square&logo=nextdns&logoColor=83a598) |
 | `desk` | ![Ubuntu](https://img.shields.io/badge/Ubuntu_24.04-1d2021?style=flat-square&logo=ubuntu&logoColor=fe8019) ![tmux](https://img.shields.io/badge/tmux-1d2021?style=flat-square&logo=tmux&logoColor=b8bb26) ![zsh](https://img.shields.io/badge/zsh-1d2021?style=flat-square&logo=zsh&logoColor=ebdbb2) ![Linear](https://img.shields.io/badge/Linear-1d2021?style=flat-square&logo=linear&logoColor=83a598) |
 
 ### `$ tmux attach   # my workspace`
@@ -72,15 +73,23 @@ Moved the product's analytics reads from Postgres onto ClickHouse with a staged,
 - **The dock:** an outer tmux server wraps the real session. Its clickable sidebar lists every Claude session by status (working, needs you, idle) and shows widgets for Slack and Linear focus, open PRs, my next meeting, now playing, weather, CPU and network.
 - **The rest:** gruvbox everywhere, resurrect and continuum so sessions survive reboots, `lazygit`, `btop`, and an ASCII cat that panics when CPU goes over 70%.
 
-### `$ docker ps   # homelab`
+### `$ docker ps && tailscale status   # homelab`
 
 ```text
+$ docker ps
 jellyfin      movies & tv
 navidrome     music streaming (subsonic api)
 sonarr        tv library automation
 radarr        movie library automation
 slskd         soulseek -> beets (musicbrainz match) -> navidrome
 wolf          games-on-whales: streams games from the iGPU to any moonlight client
+
+$ tailscale status
+strix-g15     linux    the box running everything above
+macbook-pro   macOS
+phone         iOS
+MagicDNS      on       every service reachable by name, from anywhere
+DNS           NextDNS  DNS-over-HTTPS, pushed tailnet-wide to every device
 ```
 
 An earlier version of the music setup is public as [**soularr-stack**](https://github.com/Aky9821/soularr-stack), and the old [**neoted**](https://github.com/Aky9821/neoted) is a terminal text editor I wrote in C++.
