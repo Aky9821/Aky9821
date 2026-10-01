@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="452" viewBox="0 0 880 452" role="img" aria-label="tmux — dock (outer) ⟶ work (inner)">
+<defs>
+<style>
+text { font-family: 'JetBrains Mono','Fira Code','SF Mono',Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace; white-space: pre; }
+</style>
+
+</defs>
+<rect x="0.5" y="0.5" width="879" height="451" rx="10" fill="#1d2021" stroke="#3c3836"/>
+<path d="M0.5 34 V10.5 A10 10 0 0 1 10.5 0.5 H869.5 A10 10 0 0 1 879.5 10.5 V34 Z" fill="#282828"/>
+<line x1="0.5" y1="34" x2="879.5" y2="34" stroke="#3c3836"/>
+<circle cx="20" cy="17.5" r="6" fill="#fb4934"/>
+<circle cx="40" cy="17.5" r="6" fill="#fabd2f"/>
+<circle cx="60" cy="17.5" r="6" fill="#b8bb26"/>
+<text x="440.0" y="22" text-anchor="middle" font-size="12.5" fill="#928374">tmux — dock (outer) ⟶ work (inner)</text>
+<rect x="1" y="35" width="238" height="390" fill="#1d2021"/>
+<line x1="239" y1="34" x2="239" y2="426" stroke="#3c3836"/>
+<text x="16" y="60" font-size="12.5"><tspan fill="#928374" font-weight="700">WORKSPACE</tspan></text>
+<text x="16" y="78.5" font-size="12.5"><tspan fill="#928374">▸ 1 </tspan><tspan fill="#a89984">api</tspan></text>
+<rect x="6" y="83.5" width="226" height="18.5" rx="3" fill="#3c3836"/>
+<text x="16" y="97.0" font-size="12.5"><tspan fill="#fe8019">▾ 2 </tspan><tspan fill="#ebdbb2" font-weight="700">data</tspan></text>
+<text x="16" y="115.5" font-size="12.5"><tspan fill="#665c54">    ├ </tspan><tspan fill="#a89984">sync-fix</tspan></text>
+<text x="16" y="134.0" font-size="12.5"><tspan fill="#665c54">    └ </tspan><tspan fill="#a89984">query-perf</tspan></text>
+<text x="16" y="152.5" font-size="12.5"><tspan fill="#928374">▸ 3 </tspan><tspan fill="#a89984">web</tspan></text>
+<text x="16" y="171.0" font-size="12.5"><tspan fill="#928374">▸ 4 </tspan><tspan fill="#a89984">homelab</tspan></text>
+<line x1="14" y1="180.5" x2="224" y2="180.5" stroke="#3c3836"/>
+<text x="16" y="197.5" font-size="12.5"><tspan fill="#928374" font-weight="700">CLAUDE</tspan><tspan fill="#a89984">              20</tspan></text>
+<text x="16" y="216.0" font-size="12.5"><tspan fill="#fe8019">✦ </tspan><tspan fill="#ebdbb2">working</tspan><tspan fill="#fabd2f" font-weight="700">            7</tspan></text>
+<text x="16" y="234.5" font-size="12.5"><tspan fill="#fb4934">◆ </tspan><tspan fill="#ebdbb2">needs you</tspan><tspan fill="#fb4934" font-weight="700">          2</tspan></text>
+<text x="16" y="253.0" font-size="12.5"><tspan fill="#928374">○ </tspan><tspan fill="#a89984">idle</tspan><tspan fill="#a89984">              11</tspan></text>
+<line x1="14" y1="262.5" x2="224" y2="262.5" stroke="#3c3836"/>
+<text x="16" y="279.5" font-size="12.5"><tspan fill="#928374" font-weight="700">PRS   </tspan><tspan fill="#a89984">4 open · 2 to review</tspan></text>
+<text x="16" y="298.0" font-size="12.5"><tspan fill="#928374" font-weight="700">NEXT  </tspan><tspan fill="#a89984">11:30 standup</tspan></text>
+<text x="16" y="316.5" font-size="12.5"><tspan fill="#928374" font-weight="700">CPU   </tspan><tspan fill="#8ec07c">▂▃▅▇▅▃ </tspan><tspan fill="#a89984">34%</tspan></text>
+<text x="16" y="335.0" font-size="12.5"><tspan fill="#928374" font-weight="700">NET   </tspan><tspan fill="#a89984">↓ 2.1M  ↑ 340K</tspan></text>
+<text x="16" y="353.5" font-size="12.5"><tspan fill="#928374" font-weight="700">POMO  </tspan><tspan fill="#b8bb26">◷ 18:42 focus</tspan></text>
+<g opacity="1"><animate attributeName="opacity" values="1;0;0" calcMode="discrete" dur="2.4s" repeatCount="indefinite"/><text x="18" y="384.0" font-size="13" fill="#fe8019"> /\_/\ </text><text x="18" y="400.0" font-size="13" fill="#fe8019">( o.o )</text><text x="18" y="416.0" font-size="13" fill="#fe8019"> &gt; ^ &lt; </text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0" calcMode="discrete" dur="2.4s" repeatCount="indefinite"/><text x="18" y="384.0" font-size="13" fill="#fe8019"> /\_/\ </text><text x="18" y="400.0" font-size="13" fill="#fe8019">( ^.^ )</text><text x="18" y="416.0" font-size="13" fill="#fe8019"> &gt; ^ &lt; </text></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1" calcMode="discrete" dur="2.4s" repeatCount="indefinite"/><text x="18" y="384.0" font-size="13" fill="#fe8019"> /\_/\ </text><text x="18" y="400.0" font-size="13" fill="#fe8019">( o.o )</text><text x="18" y="416.0" font-size="13" fill="#fe8019">  &gt; ^ &lt;</text></g>
+<rect x="245.0" y="40.0" width="309.5" height="184.0" rx="4" fill="#282828" stroke="#fe8019" stroke-opacity="0.9"/>
+<text x="256.0" y="60.0" font-size="11.5" fill="#fe8019">─ feat/sync-fix </text>
+<text x="256.0" y="84.0" font-size="12.5"><tspan fill="#fe8019">❯ </tspan><tspan fill="#ebdbb2">claude</tspan></text>
+<text x="256.0" y="103.5" font-size="12.5"><tspan fill="#fe8019">✻ </tspan><tspan fill="#ebdbb2">Tracking down a flaky sync job…</tspan></text>
+<text x="256.0" y="123.0" font-size="12.5"><tspan fill="#665c54">  └ </tspan><tspan fill="#928374">Read </tspan><tspan fill="#83a598">sync/runner.py</tspan></text>
+<text x="256.0" y="142.5" font-size="12.5"><tspan fill="#665c54">  └ </tspan><tspan fill="#928374">Bash </tspan><tspan fill="#a89984">pytest tests/sync -q</tspan></text>
+<text x="256.0" y="162.0" font-size="12.5"><tspan fill="#ebdbb2">    </tspan><tspan fill="#b8bb26">48 passed</tspan><tspan fill="#928374"> in 6.2s</tspan></text>
+<rect x="256.0" y="169.5" width="7.5" height="15" fill="#fe8019"><animate attributeName="opacity" values="1;0" dur="1.1s" calcMode="discrete" repeatCount="indefinite"/></rect>
+<rect x="564.5" y="40.0" width="309.5" height="184.0" rx="4" fill="#282828" stroke="#3c3836" stroke-opacity="1"/>
+<text x="575.5" y="60.0" font-size="11.5" fill="#928374">─ codex · challenge feat/sync-fix </text>
+<text x="575.5" y="84.0" font-size="12.5"><tspan fill="#fe8019">❯ </tspan><tspan fill="#ebdbb2">codex exec -s read-only</tspan></text>
+<text x="575.5" y="103.5" font-size="12.5"><tspan fill="#665c54">  └ </tspan><tspan fill="#a89984">diff vs master · 6 files</tspan></text>
+<text x="575.5" y="123.0" font-size="12.5"><tspan fill="#fb4934">◆ </tspan><tspan fill="#ebdbb2">race: two workers can claim the</tspan></text>
+<text x="575.5" y="142.5" font-size="12.5"><tspan fill="#ebdbb2">  </tspan><tspan fill="#ebdbb2">same batch</tspan></text>
+<text x="575.5" y="162.0" font-size="12.5"><tspan fill="#b8bb26">✓ </tspan><tspan fill="#a89984">3 findings → back to claude</tspan></text>
+<rect x="245.0" y="236.0" width="309.5" height="184.0" rx="4" fill="#282828" stroke="#3c3836" stroke-opacity="1"/>
+<text x="256.0" y="256.0" font-size="11.5" fill="#928374">─ feat/query-perf </text>
+<text x="256.0" y="280.0" font-size="12.5"><tspan fill="#fe8019">✻ </tspan><tspan fill="#ebdbb2">Running the parity harness…</tspan></text>
+<text x="256.0" y="299.5" font-size="12.5"><tspan fill="#665c54">  └ </tspan><tspan fill="#a89984">old read path vs new, same inputs</tspan></text>
+<text x="256.0" y="319.0" font-size="12.5"><tspan fill="#665c54">  └ </tspan><tspan fill="#a89984">diffing every response</tspan></text>
+<text x="256.0" y="338.5" font-size="12.5"><tspan fill="#ebdbb2">  </tspan><tspan fill="#a89984">p95 </tspan><tspan fill="#b8bb26">▼ </tspan><tspan fill="#a89984">results identical </tspan><tspan fill="#b8bb26">✓</tspan></text>
+<text x="256.0" y="358.0" font-size="12.5"><tspan fill="#ebdbb2">  </tspan><tspan fill="#fabd2f">every request matches prod</tspan></text>
+<rect x="564.5" y="236.0" width="309.5" height="184.0" rx="4" fill="#282828" stroke="#3c3836" stroke-opacity="1"/>
+<text x="575.5" y="256.0" font-size="11.5" fill="#928374">─ loop · pr-review-autopilot </text>
+<text x="575.5" y="280.0" font-size="12.5"><tspan fill="#8ec07c">● </tspan><tspan fill="#ebdbb2">Review tick</tspan><tspan fill="#928374"> · 3 PRs requested</tspan></text>
+<text x="575.5" y="299.5" font-size="12.5"><tspan fill="#665c54">  └ </tspan><tspan fill="#83a598">api  #1  </tspan><tspan fill="#a89984">2 inline comments</tspan></text>
+<text x="575.5" y="319.0" font-size="12.5"><tspan fill="#665c54">  └ </tspan><tspan fill="#83a598">data #2  </tspan><tspan fill="#b8bb26">clean </tspan><tspan fill="#b8bb26">✓</tspan></text>
+<text x="575.5" y="338.5" font-size="12.5"><tspan fill="#665c54">  └ </tspan><tspan fill="#83a598">web  #3  </tspan><tspan fill="#a89984">1 nit</tspan></text>
+<text x="575.5" y="358.0" font-size="12.5"><tspan fill="#928374">⏵ </tspan><tspan fill="#928374">next tick in 10m</tspan></text>
+<rect x="1" y="426" width="878" height="25" fill="#282828"/>
+<line x1="1" y1="426" x2="879" y2="426" stroke="#3c3836"/>
+<rect x="10" y="431" width="72" height="16" rx="3" fill="#fe8019"/>
+<text x="10" y="443.5" font-size="12"><tspan fill="#1d2021" font-weight="700"> work    </tspan><tspan fill="#ebdbb2">  </tspan><tspan fill="#fe8019">● ● </tspan><tspan fill="#b8bb26">● </tspan><tspan fill="#928374">○ ○</tspan><tspan fill="#504945">  │  </tspan><tspan fill="#928374">1 api  </tspan><tspan fill="#fe8019" font-weight="700">2 data</tspan><tspan fill="#928374">  3 web  4 homelab</tspan></text>
+<text x="866" y="443.5" font-size="12" text-anchor="end"><tspan fill="#928374">gruvbox · resurrect + continuum · </tspan><tspan fill="#a89984">Alt-hjkl</tspan></text>
+</svg>
